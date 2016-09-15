@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "database_development",
+    "storage": "db/imdb.db",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "database": "database_test",
+    "storage": "db/imdb.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "database": "database_production",
+    "storage": "db/imdb.db",
+    "dialect": "sqlite"
+  }
+}
